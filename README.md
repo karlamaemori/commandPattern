@@ -16,7 +16,7 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
  
 **Command Design Pattern**
 
-![Smart Home Automation Dashboard](assets/SmartHomeAutomation.jpg)
+![Smart Home Automation Dashboard](https://github.com/karlamaemori/commandPattern/blob/main/SmartHomeAutomation.jpg)
 
 ---
 
@@ -38,13 +38,6 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 - `Light` manages `brightness` and exposes `turnOn()` / `turnOff()`.
 - `Thermostat` manages `temperature` and exposes `addTemperature()` / `minusTemperature()`.
 - `MusicPlayer` manages `volume` and exposes `addVolume()` / `minusVolume()`.
----
- 
-# Why the Command Pattern?
- 
-- **Decoupling:** `DeviceController` never touches `Light`, `Thermostat`, or `MusicPlayer` directly — it only knows the `Command` interface. This satisfies requirement #4 (no need to understand internal device workings).
-- **Extensibility:** Adding a new device (e.g., a `Fan`) only requires creating a new receiver class and one or two new `Command` implementations. `DeviceController` and `SmarthomeApp`'s invocation logic don't change. This satisfies requirement #3.
-- **Uniform invocation:** Every device action, however different internally, is triggered the same way through `execute()`, letting the controller send high-level commands like `LIGHT_ON` or `THERMOSTAT_ADD` without caring how each device implements them. This satisfies requirements #1 and #2.
 ---
  
 # Project Structure
