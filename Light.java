@@ -3,7 +3,7 @@ public class Light {
 
     public String turnOn() {
         this.brightness = 100;
-        return "Light is ON (Brightness: )" + brigthness + "%");
+        return "Light is ON (Brightness: )" + brigthness + "%";
     }
 
     public String turnOff() {
