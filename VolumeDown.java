@@ -7,6 +7,6 @@ public class VolumeDown implements Command {
 
     @Override
     public String execute() {
-        return musicPlayer.volumeDown();
+        return musicPlayer.minusVolume();
     }
 }

@@ -7,6 +7,6 @@ public class ReducingThermostat implements Command {
 
     @Override
     public String execute() {
-        return thermostat.reduceTemperature();
+        return thermostat.minusTemperature();
     }
 }

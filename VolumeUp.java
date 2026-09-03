@@ -7,6 +7,6 @@ public class VolumeUp implements Command {
 
     @Override
     public String execute() {
-        return musicPlayer.volumeUp();
+        return musicPlayer.addVolume();
     }
 }
