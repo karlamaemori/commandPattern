@@ -16,6 +16,8 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
  
 **Command Design Pattern**
 
+![Smart Home Automation Dashboard](assets/SmartHomeAutomation.jpg)
+
 ---
 
 # Components
