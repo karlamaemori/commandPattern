@@ -1,4 +1,4 @@
-# commandPattern
+# Command Pattern
 
 ### Smart Home Automation
 
