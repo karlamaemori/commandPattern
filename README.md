@@ -1,5 +1,7 @@
 # commandPattern
 
+### Smart Home Automation
+
 Imagine you're building a smart home automation system where various devices (lights, thermostat, music player, etc.) can be controlled remotely using a central hub or app. Each device has different functionalities, but you want to create a unified and flexible control mechanism.
  
 Design a system that allows you to control multiple smart home devices with ease. Your goal is to create a solution where:
